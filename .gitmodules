@@ -1,12 +1,3 @@
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = https://github.com/spf13/hyde
-[submodule "themes/hallo"]
-	path = themes/hallo
-	url = https://github.com/EmielH/hallo-hugo.git
-[submodule "themes/vncnt-hugo"]
-	path = themes/vncnt-hugo
-	url = https://github.com/fncnt/vncnt-hugo.git
-[submodule "themes/hugo-bingo"]
-	path = themes/hugo-bingo
-	url = https://github.com/gundamew/hugo-bingo.git
+[submodule "themes/purehugo"]
+	path = themes/purehugo
+	url = https://github.com/dplesca/purehugo.git

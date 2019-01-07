@@ -1,0 +1,11 @@
+baseURL = "http://laurenfosgett.com"
+languageCode = "en-us"
+title = "Lauren Fosgett"
+theme = "hyde"
+
+
+[params]
+  AuthorName = "Lauren Fosgett"
+  GitHubUser = "lfosgett"
+  SidebarRecentLimit = 5
+  Subtitle = "IT Guru. Web Developer. Salesforce Enthusiast."

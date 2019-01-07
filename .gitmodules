@@ -7,3 +7,6 @@
 [submodule "themes/vncnt-hugo"]
 	path = themes/vncnt-hugo
 	url = https://github.com/fncnt/vncnt-hugo.git
+[submodule "themes/hugo-bingo"]
+	path = themes/hugo-bingo
+	url = https://github.com/gundamew/hugo-bingo.git

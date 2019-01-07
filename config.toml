@@ -1,10 +1,41 @@
-theme = "hyde"
-baseURL = "https://www.laurenfosgett.com"
-languageCode = "en-us"
-title = "Lauren Fosgett"
+baseURL = "https://www.laurenfosgett.com/"
 
+
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Lauren Fosgett · Home"
+
+[blackfriday]
+extensions = ["hardLineBreak"]
+
+[permalinks]
+fixed = ":title/"
+posts = "posts/:slug/"
 
 [params]
-  AuthorName = "Lauren Fosgett"
-  GitHubUser = "lfosgett"
-  Subtitle = "IT Guru. Web Developer. Salesforce Enthusiast."
+author = "Lauren Fosgett"
+description = "Lauren Fosgett Personal Website"
+bio = "IT Guru. Web Developer. Salesforce Enthusiast."
+avatar = "img/avatar.jpg"
+favicon = "img/favicon.ico"
+
+	[params.contact]
+    email = "l.fosgett@gmail.com"
+    github = "lfosgett"
+    twitter = "lfosgett"
+    linkedin = "laurenfosgett"
+    devcommunity = "lfosgett"
+    
+

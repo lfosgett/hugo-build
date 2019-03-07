@@ -1,11 +1,76 @@
 baseURL = "https://www.laurenfosgett.com/"
 languageCode = "en-us"
 title = "Lauren Fosgett"
-theme = "purehugo"
-Paginate = 10
+theme = "hello-friend-ng"
+
+
+# [params]
+#  twitterName = "lfosgett"
+#  githubName = "lfosgett"
+#  linkedinName = "lfosgett"
+#  description = "IT Guru. Web Developer. Salesforce Enthusiast. Current Desert Dweller."
+
 
 [params]
-  twitterName = "lfosgett"
-  githubName = "lfosgett"
-  linkedinName = "lfosgett"
-  description = "IT Guru. Web Developer. Salesforce Enthusiast. \nCurrent Desert Dweller."
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Lauren Fosgett"
+  keywords = "homepage, blog, salesforce, business analysis, development, project management, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [languages]
+  [languages.en]
+    title = "Lauren Fosgett"
+    subtitle = "IT Guru. Salesforce Enthusiast. Wearer of Many Hats."
+    keywords = "homepage, blog, salesforce, business analysis, development, project management, programming"
+    copyright = "Lauren Fosgett"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Lauren Fosgett"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+# And you can even create generic menu
+[menu]
+  #[[menu.main]]
+  #  identifier = "about"
+  #  name       = "About"
+  #  url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+
+
+    
+
+     # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/lfosgett"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:l.fosgett@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/lfosgett"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/laurenfosgett"
